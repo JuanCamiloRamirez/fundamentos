@@ -29,14 +29,13 @@ public class User {
 
     public User() {}
 
-    public User(String name, String email, LocalDate birthDate, List<Post> posts) {
+    public User(String name, String email, LocalDate birthDate) {
         this.name = name;
         this.email = email;
-        this.birthDate = birthDate;
-        this.posts = posts;
+        this.birthDate = birthDate;        
     }
 
-    public Long getId() {
+      public Long getId() {
         return id;
     }
 
